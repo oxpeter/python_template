@@ -1,4 +1,4 @@
-.pyc
+*.pyc
 .gitignore
 
 # Object files
