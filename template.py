@@ -1,8 +1,6 @@
 #! /usr/bin/env python
 """
-A wrapper to identify, extract, align and phylogenise a target gene. The primary purpose
-of this module is for a user to confirm orthology of their gene, not to understand in
-detail the phylogenetic relationships between all closely related proteins.
+A script that will do stuff.
 """
 
 import argparse
@@ -16,7 +14,7 @@ import config
 
 def define_arguments():
     parser = argparse.ArgumentParser(description=
-            "A module to perform a variety of gene term related analyses")
+            "A module to perform a variety things")
     ### input options ###
     group1 = parser.add_argument_group('input and logging options')
     group1.add_argument("-q", "--quiet", action='store_true',default=False,
